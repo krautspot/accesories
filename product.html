@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page Icon --> 
+  <link rel="shortcut icon" href="multimedia/favicon.png">
+  <!-- CSS Documents -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="product.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Detalles del producto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-inter">
+  <!-- Botón de Cierre (Retroceder) -->
+  <button id="close-page" class="absolute top-4 left-7 text-4xl font-bold px-2 pb-1 rounded-full focus:outline-none z-50 transition-colors" aria-label="Cerrar página"><i class="fa-solid fa-arrow-left-long"></i></button>
+
+  <!-- Contenedor Principal -->
+  <div class="flex flex-col md:flex-row md:h-screen">
+    <!-- Slider de Imágenes -->
+    <div id="slider" class="relative md:relative h-80 md:w-4/6 md:h-full w-full flex items-center overflow-hidden bg-cover bg-center">
+      <button id="prev-slide" class="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 text-2xl text-white rounded-r z-50 transition-colors"><i class="fa-solid fa-caret-left"></i></button>
+      <button id="next-slide" class="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-2 text-2xl text-white rounded-l z-50 transition-colors"><i class="fa-solid fa-caret-right"></i></button>
+      <div id="slider-images" class="h-full w-full flex items-center justify-center">
+        <!-- Imágenes del slider se añadirán aquí -->
+        <div id="discount-label" class="absolute top-0 right-0 text-white py-2 px-4 text-xs font-bold transform rotate-45 translate-x-4 translate-y-4 rounded hidden z-50">
+          <!-- El porcentaje de descuento se añadirá aquí -->
+        </div>
+      </div>
+      <!-- Contenedor de puntos de navegación en móvil -->
+      <div id="slider-dots" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-50">
+        <!-- Los puntos se añadirán aquí dinámicamente -->
+      </div>
+    </div>
+
+    <!-- Información del Producto -->
+    <div class="md:w-2/6 h-auto w-full px-6 pt-6 overflow-y-auto flex flex-col dark:bg-stone-950 relative">
+      <!-- Título y Precio/Stock -->
+      <div class="mb-4">
+        <h2 id="modal-title" class="text-3xl font-bold text-balance dark:text-white"></h2>
+        <p id="modal-price-stock" class="text-2xl font-semibold mt-2"></p>
+      </div>
+      
+      <!-- Detalles -->
+      <h3 class="text-xl font-semibold mb-2 dark:text-white">Detalles</h3>
+      <div id="modal-details" class="flex flex-col mb-6 dark:text-white text-lg">
+        <!-- Detalles dinámicos -->
+      </div>
+      
+      <!-- Descripción -->
+      <h3 class="text-xl font-semibold mb-2 dark:text-white">Descripción</h3>
+      <p id="modal-description" class="text-lg text-gray-900 dark:text-gray-200 leading-relaxed mb-4"></p>
+
+      <!-- Oferta y Temporizador / Mensaje de WhatsApp -->
+      <div id="stickycont" class="bottom-0 bg-white dark:bg-stone-950 border-y-2 z-20">
+        <!-- Oferta y Temporizador -->
+        <div id="discount-section" class="flex items-center justify-center border-b-2 py-2 dark:text-white">
+          <p id="discount-info" class="w-3/6 text-right text-lg font-bold"></p>
+          <div id="discount-timer" class="w-4/6 text-left text-lg font-bold"></div>
+        </div>
+        <!-- Mensaje de WhatsApp -->
+        <div class="w-full flex flex-col justify-start items-start py-2">
+          <div class="flex items-center mb-2">
+            <img src="multimedia/whatsapp.png" alt="WhatsApp" class="w-6 h-6 mr-2">
+            <h3 class="text-lg font-semibold dark:text-white">Enviar un mensaje al vendedor</h3>
+          </div>
+          <textarea id="message-input" class="w-full h-20 border-2 rounded p-2 mb-3 resize-none font-semibold text-lg outline-none bg-transparent dark:text-white">Hola, quiero comprar el (categoría) de (título) a (precio)</textarea>
+          <button id="send-button" class="text-white py-3 rounded-lg w-full flex justify-center transition-colors font-semibold text-base dark:text-white">Enviar</button>
+        </div>
+      </div>
+
+      <!-- Productos Relacionados -->
+      <div id="related-products" class="mt-6 grid grid-cols-2 gap-6">
+          <!-- Los productos relacionados se insertarán aquí -->
+      </div>      
+    </div>
+  </div>
+
+  <script src="product.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,990 @@
+{
+  "phone": {
+    "prefix": "+51",
+    "number": "966002733"
+  },
+  "store": {
+    "logo": "logo.png",
+    "storeName": "KRAUTSTORE",
+    "slogan": "Accesorios a tu estilo",
+    "color": "cyan"
+  },
+  "products": [
+    {
+      "id": 1,
+      "title": "Arete de acero inoxidable con estilo inka",
+      "oldPrice": "9.99",
+      "price": "4.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Estos aretes de estilo inca te conectan con las antiguas civilizaciones peruanas. Sus diseños intrincados y materiales de alta calidad te permiten llevar un pedazo de historia contigo a donde vayas. ",
+      "images": [
+        "Arete-de-acero-inoxidable-con-estilo-inka.png",
+        "Arete-de-acero-inoxidable-con-estilo-inka-2.jpeg",
+        "Arete-de-acero-inoxidable-con-estilo-inka-3.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "2024-10-20T00:00:00",
+      "addStart": "2024-08-18T00:00:00",
+      "addType": 0,
+      "type": "Store",
+      "link": "https://www.facebook.com/marketplace/profile/100050254250351/",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 2,
+      "title": "Arete de acero inoxidable con incrustación de vidrio",
+      "oldPrice": "9.99",
+      "price": "4.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Elegancia en su máxima expresión. Estos aretes de acero inoxidable con una delicada incrustación de vidrio son el complemento perfecto para cualquier ocasión. Su diseño minimalista los hace versátiles y atemporales.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio.png",
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-2.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-3.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-4.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "2024-10-20T00:00:00",
+      "addStart": "2024-08-18T00:00:00",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Arete de acero inoxidable con forma de cráneo",
+      "oldPrice": "",
+      "price": "5.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Plateado"
+        }
+      ],
+      "description": "Estos aretes de cráneo, con su diseño gótico y su acabado, emanan una aura de misterio y poder. Un accesorio imprescindible para aquellos que buscan expresar su lado más oscuro.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-forma-de-craneo.png",
+        "Arete-de-acero-inoxidable-con-forma-de-craneo-2.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-craneo-3.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Arete de acero inoxidable con incrustación de vidrio con forma de flor",
+      "oldPrice": "19.99",
+      "price": "5.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Estos aretes de flor, con su diseño moderno y la sofisticada incrustación de vidrio negro, son el complemento perfecto para cualquier ocasión especial. Un accesorio que te hará destacar.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-de-flor.png",
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-de-flor-2.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-de-flor-3.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-de-flor-4.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-de-flor-5.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "2024-10-20T00:00:00",
+      "addStart": "2024-08-18T00:00:00",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Arete de acero inoxidable con forma triangular",
+      "oldPrice": "",
+      "price": "6.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Estos aretes triangulares son más que un simple accesorio, son una declaración de estilo. Su diseño geométrico y su material resistente los convierten en una pieza única y llamativa. ¡Atrévete a destacar! ",
+      "images": [
+        "Arete-de-acero-inoxidable-con-froma-triangular.png",
+        "Arete-de-acero-inoxidable-con-froma-triangular-2.jpeg",
+        "Arete-de-acero-inoxidable-con-froma-triangular-3.jpeg",
+        "Arete-de-acero-inoxidable-con-froma-triangular-4.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Arete de acero inoxidable con incrustación de vidrio con forma azteca",
+      "oldPrice": "11.99",
+      "price": "6.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Fusiona lo moderno con lo ancestral con estos aretes triangulares. La geometría azteca se combina con la elegancia del acero inoxidable y la belleza del vidrio. Un accesorio audaz y sofisticado para los amantes del estilo tribal.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-azteca.png",
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-azteca-2.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustacion-de-vidrio-con-forma-azteca-3.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Arete de acero inoxidable con incrustación de vidrio con forma de lanza",
+      "oldPrice": "",
+      "price": "6.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Estos aretes de lanza, con su imponente diseño y la deslumbrante incrustación de vidrio, simbolizan poder y determinación. Un accesorio perfecto para quienes buscan destacar con un toque de sofisticación.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza.png",
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza-2.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza-3.jpeg",
+        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza-4.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      },
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Arete de acero inoxidable con espadas",
+      "oldPrice": "",
+      "price": "7.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Impacta con este audaz arete colgante de espadas en acero inoxidable. Las espadas y el acabado brillante crean un diseño llamativo y lleno de personalidad. ",
+      "images": [
+        "Arete-de-acero-inoxidable-con-cruz.png",
+        "Arete-de-acero-inoxidable-con-cruz-2.jpeg",
+        "Arete-de-acero-inoxidable-con-cruz-3.jpeg",
+        "Arete-de-acero-inoxidable-con-cruz-4.jpeg",
+        "Arete-de-acero-inoxidable-con-cruz-5.jpeg",
+        "Arete-de-acero-inoxidable-con-cruz-6.jpeg",
+        "Arete-de-acero-inoxidable-con-cruz-7.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Arete de acero inoxidable con dados",
+      "oldPrice": "",
+      "price": "7.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Estos aretes son perfectos para los amantes de los juegos. Un gran dado de 6 caras, está suspendido en el acero inoxidable. El diseño es audaz y llamativo, ideal para aquellos que desean hacer una declaración de estilo.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-dados.png",
+        "Arete-de-acero-inoxidable-con-dados-2.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-3.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-4.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-5.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-6.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-7.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-8.jpeg",
+        "Arete-de-acero-inoxidable-con-dados-9.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Arete de acero inoxidable con forma de cola de escorpion",
+      "oldPrice": "",
+      "price": "7.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Arete de acero inoxidable con forma de cola de escorpión. Diseño único y atrevido. Ideal para quienes buscan un accesorio que impacte.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-forma-de-cola-de-escorpion.png",
+        "Arete-de-acero-inoxidable-con-forma-de-cola-de-escorpion-2.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-cola-de-escorpion-3.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-cola-de-escorpion-4.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-cola-de-escorpion-5.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Arete de acero inoxidable con forma de espinas",
+      "oldPrice": "",
+      "price": "7.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Aretes de acero inoxidable con diseño de espinas. ¡Un toque punk para tu estilo! ",
+      "images": [
+        "Arete-de-acero-inoxidable-con-forma-de-espinas.png",
+        "Arete-de-acero-inoxidable-con-forma-de-espinas-2.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-espinas-3.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-espinas-4.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-espinas-5.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-espinas-6.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Arete de acero inoxidable con forma de hacha",
+      "oldPrice": "14.99",
+      "price": "7.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Los aretes de hachas nunca pasan de moda. Nuestra versión en acero inoxidable te ofrece un diseño atemporal con un toque moderno.",
+      "images": [
+        "Arete-de-acero-inoxidable-con-forma-de-hacha.png",
+        "Arete-de-acero-inoxidable-con-forma-de-hacha-2.jpeg",
+        "Arete-de-acero-inoxidable-con-forma-de-hacha-3.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Arete de acero inoxidable colgante con doble cruz",
+      "oldPrice": "19.99",
+      "price": "9.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Un toque de nostalgia con este sofisticado arete colgante de doble cruz en acero inoxidable. Su diseño vintage añade un toque de elegancia a cualquier look.",
+      "images": [
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz.png",
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-2.jpeg",
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-3.jpeg",
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-4.jpeg",
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-5.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Arete de acero inoxidable colgante de pluma",
+      "oldPrice": "",
+      "price": "9.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Exprésate con este audaz arete colgante de pluma en acero inoxidable. Su diseño punk y rebelde te hará destacar entre la multitud.",
+      "images": [
+        "Arete-de-acero-inoxidable-colgante-de-pluma.png",
+        "Arete-de-acero-inoxidable-colgante-de-pluma-2.jpeg",
+        "Arete-de-acero-inoxidable-colgante-de-pluma-3.jpeg",
+        "Arete-de-acero-inoxidable-colgante-de-pluma-4.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Arete de acero inoxidable colgante con doble cruz y sujetador",
+      "oldPrice": "24.99",
+      "price": "11.99",
+      "category": "Arete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Material",
+          "value": "Acero Inoxidable"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "description": "Ideal para complementar looks casuales o más elaborados, estos aretes son un must-have para cualquier amante de la moda urbana. ",
+      "images": [
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-y-sujetador.png",
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-y-sujetador-2.jpeg",
+        "Arete-de-acero-inoxidable-colgante-con-doble-cruz-y-sujetador-3.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "+51",
+        "number": "955804208"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Smartwatch I9 Pro Max S",
+      "oldPrice": "79.99",
+      "price": "44.99",
+      "category": "Smartwatche",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Batería",
+          "value": "200 mAh"
+        },
+        {
+          "label": "Cargador",
+          "value": "Inalámbrico"
+        },
+        {
+          "label": "Compatible",
+          "value": "IOS 9, Andorid 5"
+        },
+        {
+          "label": "Color",
+          "value": "Negro, Rosado, Blanco, Azul"
+        },
+        {
+          "label": "Garantía",
+          "value": "2 Meses"
+        }
+      ],
+      "description": "Smartwatch realiza y recibe llamadas",
+      "images": [
+        "smartwatch-i9-pro-max-s.jpg",
+        "smartwatch-i9-pro-max-s.jpg-2",
+        "smartwatch-i9-pro-max-s.jpg-3",
+        "smartwatch-i9-pro-max-s.jpg-4"
+      ],
+      "stock": 200,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 17,
+      "title": "Brazalete",
+      "oldPrice": "",
+      "price": "35.99",
+      "category": "Brazalete",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "4.5 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "4.5 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "6.8 cm"
+        },
+        {
+          "label": "Peso",
+          "value": "0.2 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "1 Mes"
+        }
+      ],
+      "description": "Brazalete bohemio de color dorado para fiesta.",
+      "images": [
+        "brazalete.jpg",
+        "brazalete-2.jpg",
+        "brazalete-3.jpg"
+      ],
+      "stock": 10,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 18,
+      "title": "Collar gargantilla de conchitas de río",
+      "oldPrice": "59.99",
+      "price": "39.99",
+      "category": "Collare",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "2 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "3 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "4 cm"
+        },
+        {
+          "label": "Peso",
+          "value": "0.3 kg"
+        }
+      ],
+      "description": "Collar gargantilla conchitas de río: una pieza boho encantadora. Resalta tu estilo con esta joya natural y delicada, con seguro de acero inoxidable.",
+      "images": [
+        "collar-gargantilla-de-conchitas-de-rio.jpg",
+        "collar-gargantilla-de-conchitas-de-rio-2.jpg",
+        "collar-gargantilla-de-conchitas-de-rio-3.jpg",
+        "collar-gargantilla-de-conchitas-de-rio-4.jpg"
+      ],
+      "stock": 20,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 19,
+      "title": "Reloj encendedor recargable eléctrico",
+      "oldPrice": "119.99",
+      "price": "99.99",
+      "category": "Reloje",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "15 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "8 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "5 cm"
+        },
+        {
+          "label": "Peso",
+          "value": "0.5 kg"
+        },
+        {
+          "label": "Color",
+          "value": "Marrón"
+        }
+      ],
+      "description": "Reloj de carga USB, amigable con el medio ambiente puede cargarse mediante un cable micro USB. En todo momento podrás tener fuego siempre a la mano.",
+      "images": [
+        "reloj-encendedor-recargable-electrico.jpeg",
+        "reloj-encendedor-recargable-electrico-2.jpeg"
+      ],
+      "stock": 45,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 20,
+      "title": "Reloj Invicta Modelo 29378",
+      "oldPrice": "",
+      "price": "599.99",
+      "category": "Reloje",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "15 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "15 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "15  cm"
+        },
+        {
+          "label": "Peso",
+          "value": "1 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 Meses"
+        }
+      ],
+      "description": "Este hermoso Invicta Especialidad reloj contiene un movimiento de cuarzo precisa, además de un oro, caja de acero. Su cara muestra una plata, esfera de metal protegido por un cristal mineral de alta resistencia. Este reloj se completa con una correa de acero, dorada, inoxidable y ofrece una resistencia al agua de hasta 50 m.",
+      "images": [
+        "reloj-invicta-modelo-29378.jpeg",
+        "reloj-invicta-modelo-29378-2.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 21,
+      "title": "H11 Ultra Smart Watch",
+      "oldPrice": "179.99",
+      "price": "159.99",
+      "category": "Smartwatche",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "10 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "10 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "10  cm"
+        },
+        {
+          "label": "Peso",
+          "value": "0.5 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 Meses"
+        }
+      ],
+      "description": "Pantalla Full HD de 2,02 pulgadas.\n\n Diseño de estilo de sistema más reciente, funcionamiento más suave \n\n El color del cuerpo del reloj está mucho más cerca del original\n\n Compatible con desinstalar algunas aplicaciones integradas del reloj. \n\n Compatible con función de tecla naranja personalizada \n\n Soporte para personalizar barras de acción de acceso directo\n\n Música local compatible con teléfonos iOS y Android. \n\n Compatible con descargar libros electrónicos al reloj\n\n Resistente al agua: IP68 resistente al agua permite que el reloj se utilice normalmente cuando se lava las manos y en días lluviosos, pero no permite nadar y bañarse. (Ten cuidado de evitar líquidos corrosivos como desinfectante de manos, el jabón entra en el reloj y causar daños en los componentes)\n\nPosición: es solo una función de posición, el reloj no tiene un chip GPS integrado, necesitas conectar el reloj al software del teléfono móvil Qifit, y luego empujar la información de ubicación al reloj.\n\nControl de acceso de puerta NFC: no es compatible con pago NFC. El reloj tiene un chip NFC integrado, no hay icono de software NFC en el reloj, solo necesitas utilizar el reloj como una tarjeta de control de acceso NFC, grabar el ID NFC del reloj a través del sistema de control de acceso, y luego el reloj se puede utilizar como una tarjeta de control de acceso NFC.\n\nUtiliza el cable de carga original del reloj Hello para cargar el reloj, otros modelos de cables no pueden soportar la carga.\n\nUtiliza un adaptador de corriente de 5 V1 A (5 W máx.) para cargar el reloj, de lo contrario el reloj puede no cargarse\n\n Sensor de luz: el reloj tiene solo 3 luces de sensor, si solo 3 luces de sensor están encendidas, es normal.\n\n El firmware del reloj se actualizará de vez en cuando para solucionar insectos, con el fin de que tengas una mejor experiencia, descarga la última versión de Qifit escaneando el código QR del manual de instrucciones cuando recibas el reloj, y luego conecta el reloj para actualizar el firmware a la última versión.",
+      "images": [
+        "H11-ultra-smart-watch.jpeg",
+        "H11-ultra-smart-watch-2.jpeg",
+        "H11-ultra-smart-watch-3.jpeg",
+        "H11-ultra-smart-watch-4.jpeg",
+        "H11-ultra-smart-watch-5.jpeg"
+      ],
+      "stock": 24,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 22,
+      "title": "Smartwatch D20 Y68",
+      "oldPrice": "49.99",
+      "price": "34.99",
+      "category": "Smartwatche",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "10 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "10 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "10  cm"
+        },
+        {
+          "label": "Peso",
+          "value": "0.5 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "12 Meses"
+        }
+      ],
+      "description": "Sistema de soporte de la aplicación: Android 4,4 y superior, IOS superior a 9,0\nUtilice un cargador No V superior a 5/2A.\nEl reloj puede controlar los pasos, calorías, frecuencia cardíaca, distancia, calidad del sueño, etc. del día. Al mismo tiempo, se puede conectar a un teléfono inteligente para ver información, tomar fotos de forma remota, recuperar teléfonos móviles y otras funciones prácticas para hacer su vida más cómoda.",
+      "images": [
+        "smartwatch-D20-Y68.jpeg",
+        "smartwatch-D20-Y68-2.jpeg",
+        "smartwatch-D20-Y68-3.jpeg",
+        "smartwatch-D20-Y68-4.jpeg",
+        "smartwatch-D20-Y68-5.jpeg"
+      ],
+      "stock": 49,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    },
+    {
+      "id": 23,
+      "title": "Blue Angels World",
+      "oldPrice": "219.99",
+      "price": "99.99",
+      "category": "Reloje",
+      "details": [
+        {
+          "label": "Estado",
+          "value": "Nuevo"
+        },
+        {
+          "label": "Alto",
+          "value": "10 cm"
+        },
+        {
+          "label": "Ancho",
+          "value": "10 cm"
+        },
+        {
+          "label": "Largo",
+          "value": "10  cm"
+        },
+        {
+          "label": "Peso",
+          "value": "0.5 kg"
+        },
+        {
+          "label": "Garantía",
+          "value": "3 Meses"
+        }
+      ],
+      "description": "El reloj para hombre BLUE ANGELS WORLD es una excelente opción para los amantes de los relojes de lujo. Está fabricado con materiales de primera calidad para asegurar su durabilidad y estilo. El cronógrafo le permite medir el tiempo con precisión, mientras que la correa de acero inoxidable ofrece una sensación suave al tacto. ¡Compre el reloj para hombre BLUE ANGELS WORLD hoy mismo para disfrutar de la lujo y la precisión!",
+      "images": [
+        "blue-angels-world.jpeg",
+        "blue-angels-world-2.jpeg",
+        "blue-angels-world-3.jpeg",
+        "blue-angels-world-4.jpeg",
+        "blue-angels-world-5.jpeg"
+      ],
+      "stock": 1,
+      "offerEnd": "",
+      "addStart": "",
+      "addType": 0,
+      "type": "",
+      "link": "",
+      "phone": {
+        "prefix": "",
+        "number": ""
+      }
+    }
+  ]
+}
