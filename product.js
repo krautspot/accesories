@@ -65,6 +65,14 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('meta[name="description"]').setAttribute("content", product.description);
         document.querySelector('meta[name="keywords"]').setAttribute("content", product.details.map(d => d.value).join(', '));
 
+        console.log('Updating Open Graph metadata with:', {
+          title: product.title,
+          description: product.description,
+          url: `https://krautstore.github.io/accesories/product.html?id=${encodeURIComponent(product.id)}`,
+          image: `https://krautstore.github.io/accesories/multimedia/${product.images[0]}`,
+          imageAlt: product.title
+        });
+
         modalDetails.innerHTML = product.details.map(detail => `
             <div class="flex w-full mb-2">
                 <div class="w-2/4 font-bold">${detail.label}:</div>
