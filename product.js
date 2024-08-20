@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('meta[property="og:description"]').setAttribute("content", product.description);
         document.querySelector('meta[property="og:url"]').setAttribute("content", `https://krautstore.github.io/accesories/product.html?id=${encodeURIComponent(product.id)}`);
         document.querySelector('meta[property="og:site_name"]').setAttribute("content", product.title);
-        document.querySelector('meta[property="og:image"]').setAttribute("content", `multimedia/${product.images[0]}`);
+        document.querySelector('meta[property="og:image"]').setAttribute("content", `https://krautstore.github.io/accesories/multimedia/${product.images[0]}`);
         document.querySelector('meta[property="og:image:alt"]').setAttribute("content", product.title);
 
         // Actualizar metadatos estándar
