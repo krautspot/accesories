@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="index, follow">
+  <meta property="og:locale" content="es_PE"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content=""/>
+  <meta property="og:description" content=""/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:image" content=""/>
+  <meta property="og:image:alt" content=""/>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
   <!-- Page Icon --> 
   <link rel="shortcut icon" href="multimedia/favicon.png">
   <!-- CSS Documents -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"crossorigin="anonymous"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="product.css">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  <title>Detalles del producto</title>
+  <title></title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="font-inter">
   <!-- Botón de Cierre (Retroceder) -->
   <button id="close-page" class="absolute top-4 left-7 text-4xl font-bold px-2 pb-1 rounded-full focus:outline-none z-50 transition-colors" aria-label="Cerrar página"><i class="fa-solid fa-arrow-left-long"></i></button>
@@ -46,6 +60,11 @@
         <p id="modal-price-stock" class="text-2xl font-semibold mt-2"></p>
       </div>
       
+      <!-- Botón de Compartir -->
+      <button id="share-button" class="flex items-center justify-center text-white py-2 px-4 mb-5 rounded-lg transition-colors font-semibold text-base">
+        <i class="fa-solid fa-share-nodes mr-2"></i>Compartir
+      </button>
+
       <!-- Detalles -->
       <h3 class="text-xl font-semibold mb-2 dark:text-white">Detalles</h3>
       <div id="modal-details" class="flex flex-col mb-6 dark:text-white text-lg">

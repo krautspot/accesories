@@ -50,6 +50,21 @@ document.addEventListener('DOMContentLoaded', function () {
         modalTitle.textContent = product.title;
         modalPriceStock.textContent = `S/.${product.price} • ${product.stock === 1 ? 'Queda 1' : `Quedan ${product.stock}`}`;
 
+        // Cambiar el título de la página
+        document.title = product.title;
+
+        // Actualizar metadatos Open Graph
+        document.querySelector('meta[property="og:title"]').setAttribute("content", product.title);
+        document.querySelector('meta[property="og:description"]').setAttribute("content", product.description);
+        document.querySelector('meta[property="og:url"]').setAttribute("content", `https://krautstore.github.io/accesories/product.html?id=${encodeURIComponent(product.id)}`);
+        document.querySelector('meta[property="og:site_name"]').setAttribute("content", `krautstore.github.io/accesories/product.html?id=${encodeURIComponent(product.id)}`);
+        document.querySelector('meta[property="og:image"]').setAttribute("content", `multimedia/${product.images[0]}`);
+        document.querySelector('meta[property="og:image:alt"]').setAttribute("content", product.title);
+
+        // Actualizar metadatos estándar
+        document.querySelector('meta[name="description"]').setAttribute("content", product.description);
+        document.querySelector('meta[name="keywords"]').setAttribute("content", product.details.map(d => d.value).join(', '));
+
         modalDetails.innerHTML = product.details.map(detail => `
             <div class="flex w-full mb-2">
                 <div class="w-2/4 font-bold">${detail.label}:</div>
@@ -78,7 +93,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 discountLabel.remove();
             }
         }
+
+        // Lógica para compartir la página
+        const shareButton = document.getElementById('share-button');
+        shareButton.addEventListener('click', function () {
+            if (navigator.share) {
+                navigator.share({
+                    title: product.title,
+                    text: 'Mira este producto increíble!',
+                    url: window.location.href,
+                }).then(() => {
+                    console.log('¡Página compartida con éxito!');
+                }).catch((error) => {
+                    console.error('Error al compartir:', error);
+                });
+            } else {
+                // Alternativa si la API de compartir no está disponible
+                alert('El compartir no es compatible en este navegador. Copia el enlace manualmente.');
+            }
+        });
     }
+
 
     function createOrUpdateDiscountLabel(offerPercent) {
         if (!discountLabel) {
@@ -216,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!primaryColor) {
             primaryColor = 'teal';
         }
-        document.querySelectorAll('#prev-slide, #next-slide, .bg-teal-900, #send-button').forEach(element => {
+        document.querySelectorAll('#prev-slide, #next-slide, .bg-teal-900, #send-button, #share-button').forEach(element => {
             element.classList.add(`bg-${primaryColor}-800`);
             element.classList.add(`hover:bg-${primaryColor}-900`);
         });
@@ -255,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Crear etiqueta de descuento si corresponde
             const discountLabel = product.oldPrice && product.addType !== 2
-                ? `<div class="discount-label absolute top-0 right-0 z-10 bg-${primaryColor}-800 text-white py-2 text-xs md:text-sm font-bold transform px-20 translate-x-14 translate-y-6 rotate-45">- ${Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%</div>`
+                ? `<div class="discount-label absolute top-0 right-0 z-10 bg-${primaryColor}-800 text-white py-2 text-xs md:text-sm font-bold transform px-12 translate-x-8 translate-y-4 rotate-45">- ${Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%</div>`
                 : '';
 
             // Configurar HTML del precio
