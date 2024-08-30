@@ -86,43 +86,6 @@
       }
     },
     {
-      "id": 3,
-      "title": "Arete de acero inoxidable con forma de cráneo",
-      "oldPrice": "",
-      "price": "5.99",
-      "category": "Arete",
-      "details": [
-        {
-          "label": "Estado",
-          "value": "Nuevo"
-        },
-        {
-          "label": "Material",
-          "value": "Acero Inoxidable"
-        },
-        {
-          "label": "Color",
-          "value": "Plateado"
-        }
-      ],
-      "description": "Estos aretes de cráneo, con su diseño gótico y su acabado, emanan una aura de misterio y poder. Un accesorio imprescindible para aquellos que buscan expresar su lado más oscuro.",
-      "images": [
-        "Arete-de-acero-inoxidable-con-forma-de-craneo.png",
-        "Arete-de-acero-inoxidable-con-forma-de-craneo-2.jpeg",
-        "Arete-de-acero-inoxidable-con-forma-de-craneo-3.jpeg"
-      ],
-      "stock": 1,
-      "offerEnd": "",
-      "addStart": "",
-      "addType": 0,
-      "type": "",
-      "link": "",
-      "phone": {
-        "prefix": "+51",
-        "number": "955804208"
-      }
-    },
-    {
       "id": 4,
       "title": "Arete de acero inoxidable con incrustación de vidrio con forma de flor",
       "oldPrice": "19.99",
@@ -231,48 +194,6 @@
       "addType": 0,
       "type": "",
       "link": "",
-      "phone": {
-        "prefix": "+51",
-        "number": "955804208"
-      }
-    },
-    {
-      "id": 7,
-      "title": "Arete de acero inoxidable con incrustación de vidrio con forma de lanza",
-      "oldPrice": "",
-      "price": "6.99",
-      "category": "Arete",
-      "details": [
-        {
-          "label": "Estado",
-          "value": "Nuevo"
-        },
-        {
-          "label": "Material",
-          "value": "Acero Inoxidable"
-        },
-        {
-          "label": "Color",
-          "value": "Negro"
-        }
-      ],
-      "description": "Estos aretes de lanza, con su imponente diseño y la deslumbrante incrustación de vidrio, simbolizan poder y determinación. Un accesorio perfecto para quienes buscan destacar con un toque de sofisticación.",
-      "images": [
-        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza.png",
-        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza-2.jpeg",
-        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza-3.jpeg",
-        "Arete-de-acero-inoxidable-con-incrustación-de-vidrio-con-forma-de-lanza-4.jpeg"
-      ],
-      "stock": 1,
-      "offerEnd": "",
-      "addStart": "",
-      "addType": 0,
-      "type": "",
-      "link": "",
-      "phone": {
-        "prefix": "+51",
-        "number": "955804208"
-      },
       "phone": {
         "prefix": "+51",
         "number": "955804208"
